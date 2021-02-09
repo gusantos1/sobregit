@@ -1,8 +1,15 @@
-# 1° Configurando usuário
+# 1° Configurações usuário 
 
-Definindo meu nome no git:
-ˋgit config --global user.name "seu_nome"ˋ
-Definindo meu email no git:
-ˋˋˋgit config --global user.email "seu_email"ˋˋˋ
-Definindo meu editor no git:
-ˋˋˋgit config --global core.editor pycharm(exemplo)ˋˋˋ
+Definindo nome do usuário no git: ```git config --global user.name "seu_nome"```
+Definindo email do usuário no git: ```git config --global user.email "seu_email"```
+Definindo editor do usuário no git: ```git config --global core.editor pycharm(exemplo)```
+Visualizando configuração do usuário: ```git config --list```
+
+# 2° Sobre git
+
+Criando repositório do git (diretamente local): ```git init```
+Atualizar repositório: ```git status```
+Adicionando arquivos: ```git add -A ou add nome_do_arquivo```
+Adicionando um commit: ```git commit -m "Primeiro commit"```
+Puxando o log de um git: ```git log```
+Mostrando as modificações no git: ```git diff ou git diff --name-only```
