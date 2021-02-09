@@ -1,9 +1,9 @@
 # 1° Configurações usuário 
 
-**Definindo nome do usuário no git**:
-```$ git config --global user.name "seu_nome"```  
-**Definindo email do usuário no git**:
-```git config --global user.email "seu_email"```  
+**Definindo nome do usuário no git**:   
+```$ git config --global user.name "seu_nome"```     
+**Definindo email do usuário no git**:  
+```git config --global user.email "seu_email"```     
 **Definindo editor do usuário no git**: ```git config --global core.editor pycharm(exemplo)```  
 **Visualizando configuração do usuário**: ```git config --list```  
   
