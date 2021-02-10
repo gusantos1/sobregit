@@ -1,4 +1,4 @@
-<img src="https://github.com/gusantos1/icons/blob/main/Git-Logo-Black.png" width="50%">  
+<img src="https://github.com/gusantos1/icons/blob/main/Git-Logo-2Color.png" width="50%">  
 
 # 1° Configurações usuário  
 **Definindo nome do usuário no git**:`$ git config --global user.name "seu_nome"`       
