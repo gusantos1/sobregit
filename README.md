@@ -24,8 +24,9 @@
 **Dando Push**:`$ git push -u origin branch_que_está_trabalhando`  
 **Puxando o log de um git**: `$ git log`    
 **Mostrando as modificações no git**: `$ git diff ou git diff --name-only`  
-**Revertendo modificações**:
-* `$ git revert --no-edit commit_desejado` _(basicamente é como voltar no tempo deixando salva o que estava dando problema, o commit ainda fica salvo no git log)_  
+**Atualizando repositório(Pull)**: `$ git pull origin nome_do_branch`   
+**Revertendo modificações**:  
+* `$ git revert --no-edit commit_desejado` _(basicamente é como voltar no tempo deixando salvo o que estava dando problema, o commit ainda fica salvo no git log)_  
 * `$ git reset --soft commit_desejado` _(volta pro estado antes do commit da alteração anterior)_ 
 * `$ git reset --mixed commit_desejado` _(igual o soft mas precisa dar o add)_ 
 * `$ git reset --hard commit_desejado` _(basicamente é como voltar no tempo mas você perde o que foi feito anteriormente, o commit não aparecerá mais no git log)_ 
