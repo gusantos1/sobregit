@@ -24,10 +24,10 @@
 **Adicionando um commit**: `$ git commit -m "comentario_sobre_alteracao_feita"`    
 **Dando Push**:`$ git push -u origin branch_que_está_trabalhando`  
 **Puxando o log de um git**: `$ git log`    
-**Mostrando as modificações no git**: `$ git diff ou git diff --name-only`
-**Mostrando servidores remotos**: `$ git remote -v`
-**Atualizando repositório(Pull)**: `$ git pull origin nome_do_branch`
-**Clonar um projeto**: `$ git clone link_github`
+**Mostrando as modificações no git**: `$ git diff ou git diff --name-only`  
+**Mostrando servidores remotos**: `$ git remote -v`  
+**Atualizando repositório(Pull)**: `$ git pull origin nome_do_branch`  
+**Clonar um projeto**: `$ git clone link_github`  
      
 **Revertendo modificações**:  
 * `$ git revert --no-edit commit_desejado` _(basicamente é como voltar no tempo deixando salvo o que estava dando problema, o commit ainda fica salvo no git log)_  
