@@ -17,6 +17,7 @@
 **Deletando um Branch(remoto e local)**:
 * _Remoto:_ `$ git push origin :nome_do_branch`
 * _Local:_ `$ git branch -D nome_do_branch`   
+
 **Atualizar repositório**: `$ git status`      
 **Adicionando arquivos**: `$ git add -A ou add nome_do_arquivo`    
 **Adicionando um commit**: `$ git commit -m "comentario_sobre_alteracao_feita"`    
