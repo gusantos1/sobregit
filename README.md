@@ -10,21 +10,25 @@
 
 # 2° Sobre git
 **Criando repositório do git (diretamente local)**: `$ git init`  
-**Conectando com o github**: `$ git remote add origin link_do_github`  
+**Conectando com o github**: `$ git remote add origin link_do_github`
+    
 **Visualizando Branch**: `$ git branch`  
 **Novo Branch**: `$ git branch novo_branch`  
 **Mudando Branch**: `$ git checkout escolha_seu_branch`  
 **Deletando um Branch(remoto e local)**:
 * _Remoto:_ `$ git push origin :nome_do_branch`
 * _Local:_ `$ git branch -D nome_do_branch`   
-
+   
 **Atualizar repositório**: `$ git status`      
 **Adicionando arquivos**: `$ git add -A ou add nome_do_arquivo`    
 **Adicionando um commit**: `$ git commit -m "comentario_sobre_alteracao_feita"`    
 **Dando Push**:`$ git push -u origin branch_que_está_trabalhando`  
 **Puxando o log de um git**: `$ git log`    
-**Mostrando as modificações no git**: `$ git diff ou git diff --name-only`  
-**Atualizando repositório(Pull)**: `$ git pull origin nome_do_branch`   
+**Mostrando as modificações no git**: `$ git diff ou git diff --name-only`
+**Mostrando servidores remotos**: `$ git remote -v`
+**Atualizando repositório(Pull)**: `$ git pull origin nome_do_branch`
+**Clonar um projeto**: `$ git clone link_github`
+     
 **Revertendo modificações**:  
 * `$ git revert --no-edit commit_desejado` _(basicamente é como voltar no tempo deixando salvo o que estava dando problema, o commit ainda fica salvo no git log)_  
 * `$ git reset --soft commit_desejado` _(volta pro estado antes do commit da alteração anterior)_ 
