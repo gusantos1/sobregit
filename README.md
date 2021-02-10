@@ -13,17 +13,21 @@
 **Conectando com o github**: `$ git remote add origin link_do_github`  
 **Visualizando Branch**: `$ git branch`  
 **Novo Branch**: `$ git branch novo_branch`  
-**Mudando Branch**: `$ git checkout escolha_seu_branch`     
-**Atualizar repositório**: `$ git status`    
+**Mudando Branch**: `$ git checkout escolha_seu_branch`  
+**Deletando um Branch(remoto e local)**:
+* _Remoto:_ `$ git push origin :nome_do_branch`
+* _Local:_ `$ git branch -D nome_do_branch`   
+**Atualizar repositório**: `$ git status`      
 **Adicionando arquivos**: `$ git add -A ou add nome_do_arquivo`    
 **Adicionando um commit**: `$ git commit -m "comentario_sobre_alteracao_feita"`    
 **Dando Push**:`$ git push -u origin branch_que_está_trabalhando`  
 **Puxando o log de um git**: `$ git log`    
 **Mostrando as modificações no git**: `$ git diff ou git diff --name-only`  
-**Revertendo modificações**:  
+**Revertendo modificações**:
+* `$ git revert --no-edit commit_desejado` _(basicamente é como voltar no tempo deixando salva o que estava dando problema, o commit ainda fica salvo no git log)_  
 * `$ git reset --soft commit_desejado` _(volta pro estado antes do commit da alteração anterior)_ 
 * `$ git reset --mixed commit_desejado` _(igual o soft mas precisa dar o add)_ 
-* `$ git reset --hard commit_desejado` _(basicamente é como voltar no tempo)_ 
+* `$ git reset --hard commit_desejado` _(basicamente é como voltar no tempo mas você perde o que foi feito anteriormente, o commit não aparecerá mais no git log)_ 
 
 
 ---
