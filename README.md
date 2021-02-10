@@ -1,3 +1,5 @@
+<img src="https://github.com/gusantos1/icons/blob/main/Git-Logo-White.png">  
+
 # 1° Configurações usuário  
 **Definindo nome do usuário no git**:`$ git config --global user.name "seu_nome"`       
 **Definindo email do usuário no git**:`$ git config --global user.email "seu_email"`     
@@ -19,9 +21,9 @@
 **Puxando o log de um git**: `$ git log`    
 **Mostrando as modificações no git**: `$ git diff ou git diff --name-only`  
 **Revertendo modificações**:  
-* `git reset --soft commit_desejado` _(volta pro estado antes do commit da alteração anterior)_ 
-* `git reset --mixed commit_desejado` _(igual o soft mas precisa dar o add)_ 
-* `git reset --hard commit_desejado` _(basicamente é como voltar no tempo)_ 
+* `$ git reset --soft commit_desejado` _(volta pro estado antes do commit da alteração anterior)_ 
+* `$ git reset --mixed commit_desejado` _(igual o soft mas precisa dar o add)_ 
+* `$ git reset --hard commit_desejado` _(basicamente é como voltar no tempo)_ 
 
 
 ---
