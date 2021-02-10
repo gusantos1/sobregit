@@ -19,9 +19,9 @@
 **Puxando o log de um git**: `$ git log`    
 **Mostrando as modificações no git**: `$ git diff ou git diff --name-only`  
 **Revertendo modificações**:  
-> `git reset --soft commit_desejado` *(volta pro estado antes do commit da alteração anterior)* 
-> `git reset --mixed commit_desejado` *(igual o soft mas precisa dar o add)* 
-> `git reset --hard commit_desejado` *(basicamente é como voltar no tempo)* 
+* `git reset --soft commit_desejado` _(volta pro estado antes do commit da alteração anterior)_ 
+* `git reset --mixed commit_desejado` _(igual o soft mas precisa dar o add)_ 
+* `git reset --hard commit_desejado` _(basicamente é como voltar no tempo)_ 
 
 
 ---
