@@ -17,7 +17,7 @@
 **Adicionando um commit**: `$ git commit -m "comentario_sobre_alteracao_feita"`    
 **Dando Push**:`$ git push -u origin branch_que_está_trabalhando`  
 **Puxando o log de um git**: `$ git log`    
-**Mostrando as modificações no git**: `$ git diff ou git diff --name-only`
+**Mostrando as modificações no git**: `$ git diff ou git diff --name-only`  
 **Revertendo modificações**:  
 > `git reset --soft commit_desejado` *(volta pro estado antes do commit da alteração anterior)* 
 > `git reset --mixed commit_desejado` *(igual o soft mas precisa dar o add)* 
