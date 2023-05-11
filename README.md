@@ -27,7 +27,7 @@
 **Mostrando as modificações no git**: `$ git diff ou git diff --name-only`  
 **Mostrando servidores remotos**: `$ git remote -v`  
 **Atualizando repositório(Pull)**: `$ git pull origin nome_do_branch`  
-**fatal: refusing to merge unrelated histories: `$ gitgit pull origin main --allow-unrelated-histories`
+**fatal: refusing to merge unrelated histories**: `$ gitgit pull origin main --allow-unrelated-histories`
 **Clonar um projeto**: `$ git clone link_github`  
      
 **Revertendo modificações**:  
