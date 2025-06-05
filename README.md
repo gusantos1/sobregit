@@ -8,9 +8,13 @@
 
 ---
 
-# 2° Sobre git
-**Criando repositório do git (diretamente local)**: `$ git init`  
-**Conectando com o github**: `$ git remote add origin link_do_github`
+# 2° Conectando com a repo já criada
+**1. Criando repositório local**: `$ git init`  
+**2. Adicionando remote da repo criada pela ui do github**: `$ git remote add origin {link_https}`
+**3. Atualizando repositório local:** `$ git fetch`
+**4. Sincronizando as branches remotes com local:** `$ git switch --track origin/{nome_da_branch}` 
+**5. Atualizando branch:** `$ git pull ou git pull --rebase`
+**6. Push:** `$ git push origin {nome_da_branch}` 
     
 **Visualizando Branch**: `$ git branch`  
 **Novo Branch**: `$ git branch novo_branch`  
@@ -27,7 +31,7 @@
 **Mostrando as modificações no git**: `$ git diff ou git diff --name-only`  
 **Mostrando servidores remotos**: `$ git remote -v`  
 **Atualizando repositório(Pull)**: `$ git pull origin nome_do_branch`  
-**fatal: refusing to merge unrelated histories**: `$ gitgit pull origin main --allow-unrelated-histories`
+**fatal: refusing to merge unrelated histories**: `$ git pull origin main --allow-unrelated-histories`
 **Clonar um projeto**: `$ git clone link_github`  
      
 **Revertendo modificações**:  
@@ -35,16 +39,5 @@
 * `$ git reset --soft commit_desejado` _(volta pro estado antes do commit da alteração anterior)_ 
 * `$ git reset --mixed commit_desejado` _(igual o soft mas precisa dar o add)_ 
 * `$ git reset --hard commit_desejado` _(basicamente é como voltar no tempo mas você perde o que foi feito anteriormente, o commit não aparecerá mais no git log)_ 
-
-
----
-
-## Contato
-*Quer trocar uma idéia, ficou com alguma dúvida ou tem algo que eu posso te ajudar ? **Fique a vontade!** :wink:*
-|Canais||
-|--|---|
-<img src="https://github.com/gusantos1/icons/blob/main/gmail.jpg" width="20" height="20"> |*gusantos.ok@gmail.com*
-<img src="https://github.com/gusantos1/icons/blob/main/telegram.svg" width="20" height="20"> | *guilhermemak*
-<img src="https://github.com/gusantos1/icons/blob/main/010-linkedin.svg" width="20" height="20"> | *gusantosdev*
 
 ---
