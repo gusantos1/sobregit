@@ -10,11 +10,11 @@
 
 # 2° Conectando com a repo já criada
 **1. Criando repositório local**: `$ git init`  
-**2. Adicionando remote da repo criada pela ui do github**: `$ git remote add origin {link_https}`
-**3. Atualizando repositório local:** `$ git fetch`
-**4. Sincronizando as branches remotes com local:** `$ git switch --track origin/{nome_da_branch}` 
-**5. Atualizando branch:** `$ git pull ou git pull --rebase`
-**6. Push:** `$ git push origin {nome_da_branch}` 
+**2. Adicionando remote da repo criada pela ui do github**: `$ git remote add origin {link_https}`  
+**3. Atualizando repositório local:** `$ git fetch`  
+**4. Sincronizando as branches remotes com local:** `$ git switch --track origin/{nome_da_branch}`   
+**5. Atualizando branch:** `$ git pull ou git pull --rebase`  
+**6. Push:** `$ git push origin {nome_da_branch}`   
     
 **Visualizando Branch**: `$ git branch`  
 **Novo Branch**: `$ git branch novo_branch`  
